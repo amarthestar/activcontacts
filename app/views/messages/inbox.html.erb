@@ -1,0 +1,37 @@
+
+
+<%= image_tag("/images/u22.jpg")%>
+<div>
+<ul><div align=right style="margin-top:120px">
+<%= image_tag("/images/u104.jpg")%>
+<%= link_to 'Inbox',inbox_path %>
+<%= image_tag("/images/u105.jpg")%>
+<%= link_to 'Sent Messages',outbox_path %>
+</ul>
+</div>
+<div align=center style="margin-top:10px">
+<% if @message.present? %>
+<h2>Messages</h2>
+<h3>inbox</h3>
+<table border="1">
+<tr>
+<th>From</th>
+<th>Subject</th>
+<th>Date</th>
+</tr>
+<% i=0 %>
+	<% @message.each do |q| %>
+       <tr>
+           <td><%=@rec[i]%><br></td>
+	   <td><%= link_to q.subject,"/msgin/#{q.id}" %><br></td>
+           <td><%=q.created_at%><br></td>
+       </tr>
+ <% i=i+1 %>
+       <% end %>
+</table>
+<% else %>
+       <p> No inbox message </p>
+<% end %>
+</div>
+<%= render :partial => "layouts/first" %>
+

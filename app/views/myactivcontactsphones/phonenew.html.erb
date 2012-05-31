@@ -1,0 +1,10 @@
+<%= render :partial => "layouts/first" %>
+<div align=center <div align=center style="margin-top:200px">
+<%= form_for :activcontactsphone ,:url=>{:action=>"phcreate", :controller=>"myactivcontactsphones"} do |f|%><br/>
+<%= f.label:Add_phone_Number %>
+<%= f.text_field:phon_number%><br />
+<%= f.submit 'Add'%>
+<%= f.hidden_field :user_id, :value => current_user.id %>
+<% end %>
+</div>
+ 

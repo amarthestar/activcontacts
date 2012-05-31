@@ -1,0 +1,23 @@
+
+<div  style="position:absolute; left:px; top:200px; width:420px; height:150px; overflow:visible">
+<%= image_tag("/images/u33.jpg")%>
+
+
+<div  style="position:absolute; left:171px; top:200px; width:420px; height:150px; overflow:visible">
+<h3> Phone Number </h3> 
+        <% if @myactivcontact.present? %>
+		<table border="1">
+			<tr>
+				<th>Phone_Number</th>
+			</tr>
+			<% @myactivcontact.each do |f| %>
+				<tr>
+					<td><%= f.phon_number%></td>
+					<td><%= link_to 'Delete', :id=>f.id, :action => "destroyph" %>	
+				</tr>
+         
+			<%end%>
+		</table>
+	<% end %>
+	<%= link_to 'Add another phonenumber',:controller=>"myactivcontacts", :action=>"phonenew" %>
+

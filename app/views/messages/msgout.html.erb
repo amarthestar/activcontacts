@@ -1,0 +1,18 @@
+
+<%= render :partial => "layouts/first" %>
+
+<%= image_tag("/images/u22.jpg")%>
+<div align=right style="margin-top:130px">
+<%= image_tag("/images/u104.jpg")%>
+<%= link_to 'Inbox',inbox_path %>
+<%= image_tag("/images/u105.jpg")%>
+<%= link_to 'Sent Messages',outbox_path %>
+</div>
+<div align=center>
+<h2>View Sent Message</h2>
+<table border='1'>
+    <tr>
+        <td width="325"><%= @msg.message %></td>
+    </tr>
+</table>
+</div>

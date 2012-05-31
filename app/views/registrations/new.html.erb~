@@ -1,0 +1,29 @@
+<h2>Create an account--It's FREE</h2>
+<%= radio_button_tag 'type', 'choose'%>use Activcontacts
+  <%= radio_button_tag 'type', 'choose'%>Use your open id
+<%= form_for(resource_name, resource, :url => registration_path(resource_name)) do |f| %>
+
+  <%= f.error_messages %>
+  <p><%= f.label :email %></p>
+  <p><%= f.text_field :email %></p>
+
+  <p><%= f.label :password %></p>
+  <p><%= f.password_field :password %></p>
+
+  <p><%= f.label :password_confirmation %></p>
+  <p><%= f.password_field :password_confirmation %></p>
+
+  <p><%= f.label :first_name %></p>
+  <p><%= f.text_field :first_name %></p> 
+
+  <p><%= f.label :last_name %></p>
+  <p><%= f.text_field :last_name %></p>
+  
+  <p><%= f.label :phone_number %></p>
+  <p><%= f.text_field :phone_number%></p>
+
+  
+  <p><%= f.submit "Sign up" %></p>
+<% end %>
+
+<%= render :partial => "devise/shared/links" %>

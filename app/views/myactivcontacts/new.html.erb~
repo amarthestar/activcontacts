@@ -1,0 +1,22 @@
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+
+<div align="center">
+<%= form_for :myactivcontact  ,:url=>{:action=>"create", :controller=>"myactivcontacts"} do |f|%><br/>
+<%= f.label:Add_email %>
+<%= f.text_field:e_mail%></br>
+ <%= f.submit 'Add'%>
+  <%= f.hidden_field :user_id, :value => current_user.id %>
+ <% end %>
+ </div>
+ 

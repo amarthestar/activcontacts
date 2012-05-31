@@ -1,0 +1,29 @@
+
+<%= render :partial => "layouts/first" %>
+
+<h1>Add to My Friends list</h1>
+
+<div  style="position:absolute; left:100px; top:180px; width:420px; height:150px; overflow:visible">
+<%= image_tag("/images/u46.png")%></div>
+<div  style="position:absolute; left:px; top:180px; width:420px; height:150px; overflow:visible">
+<%= image_tag("/images/u49.png")%></div>
+</br></br></br></br>
+<% if @finfo.present? %>
+<div align=center style="margin-top:150px">
+<h2>Are you sure to add this member as your friend ?</h2>
+<table>
+  <tr>
+    <th>First name</th>
+    <th>Last name</th>
+    <th>Phone number</th>
+</tr>
+<% @finfo.each do |friend| %>
+  <tr>
+    <td><%= friend.first_name %></td>
+    <td><%= friend.last_name %></td>
+    <td><%= friend.phone_number %></td>
+</tr>
+<% end %>
+</table>
+<% end %>
+<%=link_to 'Add as my Friend' ,new_friend_path%></div>

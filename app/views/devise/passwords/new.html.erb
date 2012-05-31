@@ -1,0 +1,19 @@
+</br>
+</br>
+</br>
+</br>
+<h2>Forgot your password?</h2></br>
+No Problem. We all forget sometimes, please enter the email associated with your
+ActivContacts account. Then Click "Reset My Password",  an email will be sent
+with a link to reset your password.
+
+<%= form_for(resource_name, resource, :url => password_path(resource_name)) do |f| %>
+  <%= f.error_messages %>
+
+  <p><%= f.label :email %></p>
+  <p><%= f.text_field :email %></p>
+
+  <p><%= f.submit "Reset My Password" %></p>
+<% end %>
+
+<%= render :partial => "devise/shared/links" %>

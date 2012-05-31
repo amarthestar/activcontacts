@@ -1,0 +1,11 @@
+<%= render :partial => "layouts/second" %>
+<div><%= image_tag("/images/u1.png")%><h1>Activcontacts</h1></div>
+<DIV id=u33 style="position:absolute; left:200px; top:200px; width:617px; height:32px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u33_rtf><span style=" font-family:'Perspective Sans'; color:#000000; font-size:27px;">the easy way to keep in touch with your friends</span></DIV></DIV>
+<div id=u10ann style="position:absolute; left:250px; top:270px; width:420px; height:150px; overflow:visible">
+  <%= form_tag(:controller => "home", :action => "search", :params => params) do %>
+  <h3>Search Others</h3><%=text_field_tag :name%>
+  <%= submit_tag "search" %>
+  <% end %>
+</div>
+

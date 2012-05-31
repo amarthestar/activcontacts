@@ -1,0 +1,535 @@
+<%= render :partial => "layouts/first" %>
+
+
+<HTML><HEAD><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta http-equiv="imagetoolbar" content="no"><link href="Resources/axurerppage.css" type="text/css" rel="stylesheet"></HEAD><BODY>
+</script>
+<% if @user.present? %>
+<span style="position:absolute; left:0px; top:82px; width:1013px; height:5px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Member_found_friend_number_files/u0.png',sizingMethod='scale');
+"><img style="width:1013px; height:5px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Member_found_friend_number_files/u0.png" border="0" alt=""></span>
+
+<IMG id=u0 src="Resources/transparent.gif" style="position:absolute; left:0px; top:81.5px; width:1010px; height:2px">
+
+<DIV id=ou1 style="position:absolute; left:3px; top:92px; width:1006px; height:41px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:1014px; height:49px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Member_found_friend_number_files/u1.png',sizingMethod='scale');
+"><img style="width:1014px; height:49px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Member_found_friend_number_files/u1.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u1container style="position:absolute; left:3px; top:92px; width:1006px; height:41px;; overflow:visible;">
+
+<DIV id=u2 style="position:absolute; left:2px; top:12px; width:1001px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u2_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u1 src="Resources/transparent.gif" style="position:absolute; left:3px; top:92px; width:1005px; height:40px"  >
+
+<span style="position:absolute; left:-10px; top:132px; width:1023px; height:5px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Member_found_friend_number_files/u3.png',sizingMethod='scale');
+"><img style="width:1023px; height:5px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Member_found_friend_number_files/u3.png" border="0" alt=""></span>
+
+<IMG id=u3 src="Resources/transparent.gif" style="position:absolute; left:-10px; top:131.5px; width:1020px; height:2px">
+
+<DIV id=ou4 style="position:absolute; left:10px; top:5px; width:101px; height:71px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:79px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Member_found_friend_number_files/u4.png',sizingMethod='scale');
+"><img style="width:109px; height:79px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Member_found_friend_number_files/u4.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u4container style="position:absolute; left:10px; top:5px; width:101px; height:71px;; overflow:visible;">
+
+
+<IMG id=u4 src="Resources/transparent.gif" style="position:absolute; left:10px; top:5px; width:100px; height:70px"  >
+
+<DIV id=u4ann style="font-size:1px; position:absolute; left:101px; top:1px; width:1px; height:1px; overflow:visible"></DIV>
+
+
+
+
+<DIV id=u7ann style="font-size:1px; position:absolute; left:971px; top:26px; width:1px; height:1px; overflow:visible"></DIV>
+
+<DIV id=u8 style="; position:absolute; left:155px; top:150px; width:600px; height:61px;; overflow:hidden">
+<DIV id=pd0u8 style="position:absolute; left:0px; top:0px; width:1px; height:1px; ;">
+<DIV id=ou9 style="position:absolute; left:6px; top:4px; width:585px; height:47px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:593px; height:55px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Member_found_friend_number_files/u9.png',sizingMethod='scale');
+"><img style="width:593px; height:55px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Member_found_friend_number_files/u9.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u9container style="position:absolute; left:6px; top:4px; width:585px; height:47px;; overflow:visible;">
+
+<DIV id=u10 style="position:absolute; left:2px; top:15px; width:580px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u10_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u9 src="Resources/transparent.gif" style="position:absolute; left:6px; top:4px; width:584px; height:46px"  >
+
+<span style="position:absolute; left:14px; top:7px; width:41px; height:41px">
+<span id=ou11 style="position:absolute;left:0px;top:0px;width:41px;height:41px;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Member_found_friend_number_files/u11.png',sizingMethod='scale');
+"><img style="width:41px; height:41px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Member_found_friend_number_files/u11.png" border="0" alt=""></span>
+</span>
+<IMG id=u11 src="Resources/transparent.gif" style="position:absolute; left:14px; top:7px; width:41px; height:41px"   >
+<DIV id=u12 style="position:absolute; left:64px; top:15px; width:450px; height:22px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u12_rtf><span style=" font-family:'Arial'; color:#0000FF; font-size:19px;"><b>Congrats !!! 1 match is found for your search</b></span></DIV></DIV>
+</DIV>
+</DIV>
+<DIV id=ou13 style="position:absolute; left:220px; top:105px; width:140px; height:29px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:148px; height:37px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Member_found_friend_number_files/u13.png',sizingMethod='scale');
+"><img style="width:148px; height:37px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Member_found_friend_number_files/u13.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u13container style="position:absolute; left:220px; top:105px; width:140px; height:29px;; overflow:visible;">
+
+
+</DIV>
+<IMG id=u13 src="Resources/transparent.gif" style="position:absolute; left:220px; top:105px; width:139px; height:28px"  >
+
+<DIV id=u13ann style="font-size:1px; position:absolute; left:350px; top:101px; width:1px; height:1px; overflow:visible"></DIV>
+
+<DIV id=ou15 style="position:absolute; left:141px; top:105px; width:85px; height:29px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:93px; height:37px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Member_found_friend_number_files/u15.png',sizingMethod='scale');
+"><img style="width:93px; height:37px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Member_found_friend_number_files/u15.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u15container style="position:absolute; left:141px; top:105px; width:85px; height:29px;; overflow:visible;">
+
+
+</DIV>
+<IMG id=u15 src="Resources/transparent.gif" style="position:absolute; left:141px; top:105px; width:84px; height:28px"  >
+
+<DIV id=u15ann style="font-size:1px; position:absolute; left:216px; top:101px; width:1px; height:1px; overflow:visible"></DIV>
+
+<DIV id=ou17 style="position:absolute; left:54px; top:105px; width:87px; height:29px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:95px; height:37px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Member_found_friend_number_files/u17.png',sizingMethod='scale');
+"><img style="width:95px; height:37px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Member_found_friend_number_files/u17.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u17container style="position:absolute; left:54px; top:105px; width:87px; height:29px;; overflow:visible;">
+
+
+</DIV>
+
+
+
+<DIV id=ou19 style="position:absolute; left:459px; top:105px; width:102px; height:29px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:110px; height:37px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Member_found_friend_number_files/u19.png',sizingMethod='scale');
+"><img style="width:110px; height:37px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Member_found_friend_number_files/u19.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u19container style="position:absolute; left:459px; top:105px; width:102px; height:29px;; overflow:visible;">
+
+
+</DIV>
+<IMG id=u19 src="Resources/transparent.gif" style="position:absolute; left:459px; top:105px; width:101px; height:28px"  >
+
+<DIV id=u19ann style="font-size:1px; position:absolute; left:551px; top:101px; width:1px; height:1px; overflow:visible"></DIV>
+
+<span style="position:absolute; left:94px; top:214px; width:889px; height:17px">
+<span id=ou21 style="position:absolute;left:0px;top:0px;width:889px;height:17px;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Member_found_friend_number_files/u21.png',sizingMethod='scale');
+"><img style="width:889px; height:17px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Member_found_friend_number_files/u21.png" border="0" alt=""></span>
+</span>
+<IMG id=u21 src="Resources/transparent.gif" style="position:absolute; left:94px; top:214px; width:889px; height:17px"   >
+
+<span style="position:absolute; left:94px; top:229px; width:889px; height:497px">
+<span id=ou22 style="position:absolute;left:0px;top:0px;width:889px;height:497px;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Member_found_friend_number_files/u22.png',sizingMethod='scale');
+"><img style="width:889px; height:497px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Member_found_friend_number_files/u22.png" border="0" alt=""></span>
+</span>
+<IMG id=u22 src="Resources/transparent.gif" style="position:absolute; left:94px; top:229px; width:889px; height:497px"   >
+
+<span style="position:absolute; left:94px; top:723px; width:889px; height:20px">
+<span id=ou23 style="position:absolute;left:0px;top:0px;width:889px;height:20px;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Member_found_friend_number_files/u23.png',sizingMethod='scale');
+"><img style="width:889px; height:20px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Member_found_friend_number_files/u23.png" border="0" alt=""></span>
+</span>
+<IMG id=u23 src="Resources/transparent.gif" style="position:absolute; left:94px; top:723px; width:889px; height:20px"   >
+
+<DIV id=u24 style="position:absolute; left:213px; top:241px; width:175px; height:32px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u24_rtf><span style=" font-family:'Arial'; color:#808080; font-size:27px;">Messages</span></DIV></DIV>
+<span style="position:absolute; left:140px; top:283px; width:817px; height:8px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Member_found_friend_number_files/u25.png',sizingMethod='scale');
+"><img style="width:817px; height:8px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Member_found_friend_number_files/u25.png" border="0" alt=""></span>
+
+<IMG id=u25 src="Resources/transparent.gif" style="position:absolute; left:140px; top:283px; width:814px; height:5px">
+
+
+<DIV id=u26ann style="font-size:1px; position:absolute; left:752px; top:237px; width:1px; height:1px; overflow:visible"></DIV>
+
+
+<DIV id=u27ann style="font-size:1px; position:absolute; left:877px; top:237px; width:1px; height:1px; overflow:visible"></DIV>
+
+<span style="position:absolute; left:350px; top:712px; width:613px; height:8px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Member_found_friend_number_files/u28.png',sizingMethod='scale');
+"><img style="width:613px; height:8px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Member_found_friend_number_files/u28.png" border="0" alt=""></span>
+
+<IMG id=u28 src="Resources/transparent.gif" style="position:absolute; left:350px; top:712px; width:610px; height:5px">
+
+<span style="position:absolute; left:2px; top:789px; width:1017px; height:6px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Member_found_friend_number_files/u29.png',sizingMethod='scale');
+"><img style="width:1017px; height:6px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Member_found_friend_number_files/u29.png" border="0" alt=""></span>
+
+<IMG id=u29 src="Resources/transparent.gif" style="position:absolute; left:2px; top:789px; width:1014px; height:3px">
+
+<span style="position:absolute; left:2px; top:961px; width:1017px; height:8px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Member_found_friend_number_files/u30.png',sizingMethod='scale');
+"><img style="width:1017px; height:8px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Member_found_friend_number_files/u30.png" border="0" alt=""></span>
+
+<IMG id=u30 src="Resources/transparent.gif" style="position:absolute; left:2px; top:961px; width:1014px; height:5px">
+
+<DIV id=ou31 style="position:absolute; left:2px; top:792px; width:1009px; height:171px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:1017px; height:179px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Member_found_friend_number_files/u31.png',sizingMethod='scale');
+"><img style="width:1017px; height:179px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Member_found_friend_number_files/u31.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u31container style="position:absolute; left:2px; top:792px; width:1009px; height:171px;; overflow:visible;">
+
+<DIV id=u32 style="position:absolute; left:2px; top:77px; width:1004px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u32_rtf>&nbsp;</DIV></DIV>
+</DIV>
+
+<DIV id=u33 style="position:absolute; left:356px; top:941px; width:328px; height:15px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u33_rtf><span style=" font-family:'Arial'; color:#BCBCBC; font-size:12px;"><b>@ 2006 - 2008 Railsfactory Inc. | All rights reserved.</b></span></DIV></DIV>
+<DIV id=u34 style="position:absolute; left:155px; top:802px; width:107px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u34_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;">Site Links</span></DIV></DIV>
+<DIV id=u35 style="position:absolute; left:325px; top:803px; width:150px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u35_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;">About</span></DIV></DIV>
+<DIV id=u36 style="position:absolute; left:502px; top:804px; width:150px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u36_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;">Policies</span></DIV></DIV>
+<DIV id=u37 style="position:absolute; left:698px; top:803px; width:150px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u37_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;">Help</span></DIV></DIV>
+<DIV id=u38 style="position:absolute; left:155px; top:835px; width:100px; height:15px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u38_rtf><span style=" font-family:'Arial'; color:#0000FF; font-size:12px;"><u>Home</u></span></DIV></DIV>
+<DIV id=u39 style="position:absolute; left:155px; top:865px; width:100px; height:15px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u39_rtf><span style=" font-family:'Arial'; color:#0000FF; font-size:12px;"><u>Sitemap</u></span></DIV></DIV>
+<DIV id=u40 style="position:absolute; left:155px; top:895px; width:100px; height:15px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u40_rtf><span style=" font-family:'Arial'; color:#0000FF; font-size:12px;"><u>Testimonials</u></span></DIV></DIV>
+<DIV id=u41 style="position:absolute; left:155px; top:925px; width:100px; height:15px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u41_rtf><span style=" font-family:'Arial'; color:#0000FF; font-size:12px;"><u>Contact</u></span></DIV></DIV>
+<DIV id=u42 style="position:absolute; left:322px; top:833px; width:100px; height:15px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u42_rtf><span style=" font-family:'Arial'; color:#0000FF; font-size:12px;"><u>ActivContacts</u></span></DIV></DIV>
+<DIV id=u43 style="position:absolute; left:322px; top:863px; width:100px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u43_rtf><span style=" font-family:'Arial'; color:#0000FF; font-size:13px;"><u>Company</u></span></DIV></DIV>
+<DIV id=u44 style="position:absolute; left:502px; top:831px; width:100px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u44_rtf><span style=" font-family:'Arial'; color:#0000FF; font-size:13px;"><u>Privacy</u></span></DIV></DIV>
+<DIV id=u45 style="position:absolute; left:502px; top:861px; width:100px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u45_rtf><span style=" font-family:'Arial'; color:#0000FF; font-size:13px;"><u>Terms of use</u></span></DIV></DIV>
+<DIV id=u46 style="position:absolute; left:698px; top:829px; width:100px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u46_rtf><span style=" font-family:'Arial'; color:#0000FF; font-size:13px;"><u>FAQs</u></span></DIV></DIV>
+<DIV id=u47 style="position:absolute; left:698px; top:859px; width:100px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u47_rtf><span style=" font-family:'Arial'; color:#0000FF; font-size:13px;"><u>Blog</u></span></DIV></DIV>
+<DIV id=u48 style="; position:absolute; left:150px; top:296px; width:623px; height:151px;; overflow:hidden">
+<DIV id=pd0u48 style="position:absolute; left:0px; top:0px; width:1px; height:1px; ;">
+<DIV id=u49 style="position:absolute; left:10px; top:10px; width:490px; height:19px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u49_rtf><span style=" font-family:'Arial'; color:#000000; font-size:16px;"><b>Do you want to send a message to this [<%= @tem %>] now?</b></span></DIV></DIV>
+<%=link_to 'SEND MESSAGE NOW',"/write/#{@user.id}" ,:style=>"position:absolute; left:130px; top:60px; width:240px; height:50px; ; ; text-align: center ; font-family:'Arial'; font-size: 15px; color:#000000; font-style:normal; font-weight:bold; text-decoration:none" %>
+
+</DIV>
+</DIV>
+<DIV id=u51 style="visibility:hidden; position:absolute; left:151px; top:290px; width:612px; height:421px;; overflow:hidden">
+<DIV id=pd0u51 style="position:absolute; left:0px; top:0px; width:1px; height:1px; visibility:hidden;">
+<DIV id=u52 style="position:absolute; left:10px; top:15px; width:296px; height:19px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u52_rtf><span style=" font-family:'Arial'; color:#000000; font-size:17px;"><b>Send message to [ Member name ]</b></span></DIV></DIV>
+<DIV id=u53 style="position:absolute; left:106px; top:226px; width:150px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u53_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;"><b>Name:</b></span></DIV></DIV>
+<DIV id=u54 style="position:absolute; left:90px; top:292px; width:150px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u54_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;"><b>Message:</b></span></DIV></DIV>
+<INPUT id=u55  type=text value="" style="position:absolute; left:160px; top:221px; width:260px; height:25px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<TEXTAREA id=u56  style="position:absolute; left:161px; top:277px; width:260px; height:95px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"  ></TEXTAREA>
+
+
+<DIV id=u57ann style="font-size:1px; position:absolute; left:221px; top:380px; width:1px; height:1px; overflow:visible"></DIV>
+
+<DIV id=u58 style="position:absolute; left:25px; top:48px; width:560px; height:32px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u58_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam lectus justo, porttitor ac, ullamcorper&nbsp; ac, cursus in, ante. Duis mi ante, sodales in, auctor vel, vehicula eget, sapien.</span></DIV></DIV>
+<DIV id=u59 style="position:absolute; left:146px; top:217px; width:30px; height:24px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u59_rtf><span style=" font-family:'Arial'; color:#FF0000; font-size:21px;"><b>*</b></span></DIV></DIV>
+<DIV id=u60 style="position:absolute; left:146px; top:281px; width:30px; height:24px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u60_rtf><span style=" font-family:'Arial'; color:#FF0000; font-size:21px;"><b>*</b></span></DIV></DIV>
+<INPUT id=u61  type=submit value="Cancel" style="position:absolute; left:240px; top:384px; width:60px; height:25px; ; ; text-align: center ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none" >
+
+<DIV id=u62 style="position:absolute; left:455px; top:4px; width:30px; height:24px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u62_rtf><span style=" font-family:'Arial'; color:#FF0000; font-size:21px;"><b>*</b></span></DIV></DIV>
+<DIV id=u63 style="position:absolute; left:469px; top:11px; width:150px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u63_rtf><span style=" font-family:'Arial'; color:#949494; font-size:13px;">fields are mandatory</span></DIV></DIV>
+<DIV id=u64container style="position:absolute; left:160px; top:251px; width:280px; height:16px; ; ; text-align: left " >
+<DIV id=u65 style="position:absolute; left:16px; top:0px; width:262px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u65_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;"> Send my number also </span><span style=" font-family:'Arial'; color:#868686; font-size:13px;">(1563248972)</span></DIV></DIV>
+</DIV>
+<DIV style="position:absolute; left:160px; top:251px; width:280px; height:16px; ; ; text-align: left " ><INPUT id=u64 style="position:absolute; left:-3px; top:-2px;" type=checkbox value=checkbox  ></DIV>
+<DIV id=u66 style="; position:absolute; left:40px; top:85px; width:481px; height:121px;; overflow:hidden">
+<DIV id=pd0u66 style="position:absolute; left:0px; top:0px; width:1px; height:1px; ;">
+<DIV id=ou67 style="position:absolute; left:3px; top:5px; width:477px; height:111px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:485px; height:119px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Member_found_friend_number_files/u67.png',sizingMethod='scale');
+"><img style="width:485px; height:119px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Member_found_friend_number_files/u67.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u67container style="position:absolute; left:3px; top:5px; width:477px; height:111px;; overflow:visible;">
+
+<DIV id=u68 style="position:absolute; left:2px; top:47px; width:472px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u68_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u67 src="Resources/transparent.gif" style="position:absolute; left:3px; top:5px; width:476px; height:110px"  >
+
+<DIV id=u69 style="position:absolute; left:22px; top:22px; width:290px; height:19px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u69_rtf><span style=" font-family:'Arial'; color:#000000; font-size:17px;"><b>Your phone number not yet verified</b></span></DIV></DIV>
+<DIV id=u70 style="position:absolute; left:20px; top:64px; width:290px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u70_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;"><b>Enter your number:</b></span></DIV></DIV>
+<INPUT id=u71  type=submit value="Verify" style="position:absolute; left:390px; top:60px; width:68px; height:25px; ; ; text-align: center ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none" >
+
+<DIV id=u71ann style="font-size:1px; position:absolute; left:449px; top:56px; width:1px; height:1px; overflow:visible"></DIV>
+
+<INPUT id=u72  type=text value="" style="position:absolute; left:230px; top:60px; width:150px; height:25px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<INPUT id=u73  type=text value="" style="position:absolute; left:159px; top:60px; width:57px; height:25px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<DIV id=u74 style="position:absolute; left:150px; top:65px; width:10px; height:18px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u74_rtf><span style=" font-family:'Arial'; color:#000000; font-size:15px;"><b>+</b></span></DIV></DIV>
+<DIV id=u75 style="position:absolute; left:157px; top:85px; width:72px; height:14px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u75_rtf><span style=" font-family:'Arial'; color:#868686; font-size:11px;">Country Code</span></DIV></DIV>
+</DIV>
+</DIV>
+<DIV id=u76 style="visibility:hidden; position:absolute; left:39px; top:82px; width:461px; height:121px;; overflow:hidden">
+<DIV id=pd0u76 style="position:absolute; left:0px; top:0px; width:1px; height:1px; visibility:hidden;">
+<DIV id=ou77 style="position:absolute; left:4px; top:7px; width:451px; height:111px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:459px; height:119px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Member_found_friend_number_files/u77.png',sizingMethod='scale');
+"><img style="width:459px; height:119px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Member_found_friend_number_files/u77.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u77container style="position:absolute; left:4px; top:7px; width:451px; height:111px;; overflow:visible;">
+
+<DIV id=u78 style="position:absolute; left:2px; top:47px; width:446px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u78_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u77 src="Resources/transparent.gif" style="position:absolute; left:4px; top:7px; width:450px; height:110px"  >
+
+<DIV id=u79 style="position:absolute; left:22px; top:32px; width:408px; height:19px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u79_rtf><span style=" font-family:'Arial'; color:#006600; font-size:17px;"><b>Your phone number is successfully verified</b></span></DIV></DIV>
+</DIV>
+</DIV>
+<DIV id=ou80 style="position:absolute; left:464px; top:224px; width:141px; height:119px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:149px; height:127px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Member_found_friend_number_files/u80.png',sizingMethod='scale');
+"><img style="width:149px; height:127px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Member_found_friend_number_files/u80.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u80container style="position:absolute; left:464px; top:224px; width:141px; height:119px;; overflow:visible;">
+
+<DIV id=u81 style="position:absolute; left:2px; top:51px; width:136px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u81_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u80 src="Resources/transparent.gif" style="position:absolute; left:464px; top:224px; width:140px; height:118px"  >
+
+<span style="position:absolute; left:555px; top:200px; width:50px; height:60px">
+<IMG id=ou82 src="Member_found_friend_number_files/u82.jpg" style="position:absolute;left:0px;top:0px;width:50px;height:60px">
+</span>
+<IMG id=u82 src="Resources/transparent.gif" style="position:absolute; left:555px; top:200px; width:50px; height:60px"   >
+
+<DIV id=u83 style="position:absolute; left:475px; top:266px; width:125px; height:64px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u83_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;">When member checks the box then his number is shown here...</span></DIV></DIV>
+<DIV id=u84 style="position:absolute; left:471px; top:237px; width:150px; height:19px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u84_rtf><span style=" font-family:'Arial'; color:#000000; font-size:16px;"><b>Note:</b></span></DIV></DIV>
+<span style="position:absolute; left:450px; top:251px; width:13px; height:23px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Member_found_friend_number_files/u85_end.png',sizingMethod='scale');
+"><img style="width:13px; height:23px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Member_found_friend_number_files/u85_end.png" border="0" alt=""></span>
+
+<span style="position:absolute; left:379px; top:260px; width:84px; height:5px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Member_found_friend_number_files/u85.png',sizingMethod='scale');
+"><img style="width:84px; height:5px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Member_found_friend_number_files/u85.png" border="0" alt=""></span>
+
+<IMG id=u85 src="Resources/transparent.gif" style="position:absolute; left:379px; top:259.5px; width:81px; height:2px">
+
+<DIV id=u86 style="visibility:hidden; position:absolute; left:-41px; top:-3px; width:652px; height:421px;; overflow:hidden">
+<DIV id=pd0u86 style="position:absolute; left:0px; top:0px; width:1px; height:1px; visibility:hidden;">
+<span style="position:absolute; left:0px; top:2px; width:650px; height:418px">
+<IMG id=ou87 src="Member_found_friend_number_files/u87.jpg" style="position:absolute;left:0px;top:0px;width:650px;height:418px">
+</span>
+<IMG id=u87 src="Resources/transparent.gif" style="position:absolute; left:0px; top:2px; width:650px; height:418px"   >
+
+<DIV id=ou88 style="position:absolute; left:39px; top:34px; width:519px; height:325px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:527px; height:333px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Member_found_friend_number_files/u88.png',sizingMethod='scale');
+"><img style="width:527px; height:333px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Member_found_friend_number_files/u88.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u88container style="position:absolute; left:39px; top:34px; width:519px; height:325px;; overflow:visible;">
+
+<DIV id=u89 style="position:absolute; left:2px; top:154px; width:514px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u89_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u88 src="Resources/transparent.gif" style="position:absolute; left:39px; top:34px; width:518px; height:324px"  >
+
+<DIV id=ou90 style="position:absolute; left:47px; top:44px; width:503px; height:304px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:511px; height:312px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Member_found_friend_number_files/u90.png',sizingMethod='scale');
+"><img style="width:511px; height:312px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Member_found_friend_number_files/u90.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u90container style="position:absolute; left:47px; top:44px; width:503px; height:304px;; overflow:visible;">
+
+<DIV id=u91 style="position:absolute; left:2px; top:143.5px; width:498px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u91_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u90 src="Resources/transparent.gif" style="position:absolute; left:47px; top:44px; width:502px; height:303px"  >
+
+<DIV id=u92 style="position:absolute; left:477px; top:62px; width:60px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u92_rtf><span style=" font-family:'Arial'; color:#0000FF; font-size:13px;"><u>Close</u></span></DIV></DIV>
+<DIV id=u92ann style="font-size:1px; position:absolute; left:528px; top:58px; width:1px; height:1px; overflow:visible"></DIV>
+
+<span style="position:absolute; left:439px; top:53px; width:34px; height:35px">
+<IMG id=ou93 src="Member_found_friend_number_files/u93.gif" style="position:absolute;left:0px;top:0px;width:34px;height:35px">
+</span>
+<IMG id=u93 src="Resources/transparent.gif" style="position:absolute; left:439px; top:53px; width:34px; height:35px"   >
+
+<DIV id=u94 style="position:absolute; left:83px; top:103px; width:210px; height:19px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u94_rtf><span style=" font-family:'Arial'; color:#000000; font-size:16px;"><b>Phone Verification</b></span></DIV></DIV>
+<span style="position:absolute; left:83px; top:126px; width:419px; height:5px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Member_found_friend_number_files/u95.png',sizingMethod='scale');
+"><img style="width:419px; height:5px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Member_found_friend_number_files/u95.png" border="0" alt=""></span>
+
+<IMG id=u95 src="Resources/transparent.gif" style="position:absolute; left:83px; top:125.5px; width:416px; height:2px">
+
+<DIV id=u96 style="position:absolute; left:110px; top:194px; width:160px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u96_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;"><b>Enter Verification Code:</b></span></DIV></DIV>
+<INPUT id=u97  type=text value="" style="position:absolute; left:272px; top:190px; width:175px; height:25px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<INPUT id=u98  type=submit value="Verify" style="position:absolute; left:269px; top:226px; width:80px; height:25px; ; ; text-align: center ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none" >
+
+<DIV id=u99 style="visibility:hidden; position:absolute; left:50px; top:50px; width:391px; height:51px;; overflow:hidden">
+<DIV id=pd0u99 style="position:absolute; left:0px; top:0px; width:1px; height:1px; visibility:hidden;">
+<span style="position:absolute; left:8px; top:4px; width:372px; height:36px">
+<span id=ou100 style="position:absolute;left:0px;top:0px;width:372px;height:36px;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Member_found_friend_number_files/u100.png',sizingMethod='scale');
+"><img style="width:372px; height:36px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Member_found_friend_number_files/u100.png" border="0" alt=""></span>
+</span>
+<IMG id=u100 src="Resources/transparent.gif" style="position:absolute; left:8px; top:4px; width:372px; height:36px"   >
+
+<DIV id=u101 style="position:absolute; left:51px; top:12px; width:410px; height:15px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u101_rtf><span style=" font-family:'Arial'; color:#000000; font-size:12px;">Invalid Verification Code</span></DIV></DIV>
+<span style="position:absolute; left:29px; top:11px; width:15px; height:15px">
+<span id=ou102 style="position:absolute;left:0px;top:0px;width:15px;height:15px;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Member_found_friend_number_files/u102.png',sizingMethod='scale');
+"><img style="width:15px; height:15px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Member_found_friend_number_files/u102.png" border="0" alt=""></span>
+</span>
+<IMG id=u102 src="Resources/transparent.gif" style="position:absolute; left:29px; top:11px; width:15px; height:15px"   >
+
+</DIV>
+</DIV>
+<DIV id=u103 style="position:absolute; left:90px; top:140px; width:430px; height:32px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u103_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;">An verification code was sent to your mobile number provided... please provide verification code here</span></DIV></DIV>
+</DIV>
+</DIV>
+</DIV>
+</DIV>
+<DIV id=ou104 style="position:absolute; left:361px; top:104px; width:98px; height:29px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:106px; height:37px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Member_found_friend_number_files/u104.png',sizingMethod='scale');
+"><img style="width:106px; height:37px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Member_found_friend_number_files/u104.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u104container style="position:absolute; left:361px; top:104px; width:98px; height:29px;; overflow:visible;">
+
+<%= render :partial => "layouts/first" %>
+
+</DIV>
+<IMG id=u104 src="Resources/transparent.gif" style="position:absolute; left:361px; top:104px; width:97px; height:28px"  >
+
+<DIV id=u104ann style="font-size:1px; position:absolute; left:449px; top:100px; width:1px; height:1px; overflow:visible"></DIV>
+
+<DIV id=u106 style="position:absolute; left:923px; top:242px; width:54px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u106_rtf><span style=" font-family:'Arial'; color:#0033FF; font-size:13px;"><u>Alerts</u></span></DIV></DIV>
+<DIV id=u106ann style="font-size:1px; position:absolute; left:968px; top:238px; width:1px; height:1px; overflow:visible"></DIV>
+
+<span style="position:absolute; left:140px; top:219px; width:69px; height:69px">
+<IMG id=ou107 src="Member_found_friend_number_files/u107.jpg" style="position:absolute;left:0px;top:0px;width:69px;height:69px">
+</span>
+<IMG id=u107 src="Resources/transparent.gif" style="position:absolute; left:140px; top:219px; width:69px; height:69px"   >
+
+<DIV id=ou108 style="position:absolute; left:560px; top:105px; width:73px; height:29px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:81px; height:37px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Member_found_friend_number_files/u108.png',sizingMethod='scale');
+"><img style="width:81px; height:37px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Member_found_friend_number_files/u108.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u108container style="position:absolute; left:560px; top:105px; width:73px; height:29px;; overflow:visible;">
+
+
+<IMG id=u108 src="Resources/transparent.gif" style="position:absolute; left:560px; top:105px; width:72px; height:28px"  >
+
+<DIV id=u108ann style="font-size:1px; position:absolute; left:623px; top:101px; width:1px; height:1px; overflow:visible"></DIV>
+
+<span style="position:absolute; left:661px; top:230px; width:30px; height:29px">
+<IMG id=ou110 src="Member_found_friend_number_files/u110.jpg" style="position:absolute;left:0px;top:0px;width:30px;height:29px">
+</span>
+<IMG id=u110 src="Resources/transparent.gif" style="position:absolute; left:661px; top:230px; width:30px; height:29px"   >
+
+<span style="position:absolute; left:754px; top:232px; width:30px; height:29px">
+<IMG id=ou111 src="Member_found_friend_number_files/u111.jpg" style="position:absolute;left:0px;top:0px;width:30px;height:29px">
+</span>
+<IMG id=u111 src="Resources/transparent.gif" style="position:absolute; left:754px; top:232px; width:30px; height:29px"   >
+
+<span style="position:absolute; left:891px; top:233px; width:30px; height:29px">
+<IMG id=ou112 src="Member_found_friend_number_files/u112.jpg" style="position:absolute;left:0px;top:0px;width:30px;height:29px">
+</span>
+<IMG id=u112 src="Resources/transparent.gif" style="position:absolute; left:891px; top:233px; width:30px; height:29px"   >
+<SCRIPT src="Resources/axurerp_pagescript.js"></SCRIPT>
+<SCRIPT src="Member_found_friend_number_files/axurerp_pagespecificscript.js"></SCRIPT></BODY></HTML>
+<% else %>
+<div align=center style="margin-top:300px"><h1>Oops!&nbsp; No matches found for your search<h1>
+<h2>
+Please make sure that you enter the search term correctly<h2>
+<% end %>
+
+

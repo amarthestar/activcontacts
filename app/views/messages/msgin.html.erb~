@@ -1,0 +1,20 @@
+<%= render :partial => "layouts/first" %>
+
+<%= image_tag("/images/u30.jpg")%>
+<div >
+<ul><div align=right style="margin-top:130px">
+  <%= image_tag("/images/u104.jpg")%>
+ <%= link_to 'Inbox',inbox_path %>
+ <%= image_tag("/images/u105.jpg")%>
+ <%= link_to 'Sent Messages',outbox_path %>
+</ul>
+</div>
+<div align=center>
+<h2>View inbox Message</h2>
+<table border='1'>
+        <tr>
+        <td width="325"><%= @msg.message %></td>
+	</tr>
+</table>
+    <%=link_to  'Accept & Add to My Friend',"/friendinfo/#{@msg.id}"%>
+    <%=link_to  'reply',"/reply/#{@msg.id}"%></div>

@@ -1,0 +1,7 @@
+<div  style="position:absolute; left:171px; top:265px; width:420px; height:150px; overflow:visible">
+<div>
+  <%= form_tag(:controller => "search", :action => "afsearch", :params => params) do %>
+    <%=text_field_tag :name%>
+  <%= submit_tag "search" %>
+  <% end %>
+</div>

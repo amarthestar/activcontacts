@@ -1,0 +1,12 @@
+<%= render :partial => "layouts/first" %>
+
+<%= image_tag("/images/u26.png")%>
+<div align=right style="margin-top:130px">
+<%= link_to 'Add Friends', new_friend_path %>
+<%= link_to 'Show', @friend %> |
+<%= link_to 'Manage Friends', friends_path %></div>
+<div align=center style="margin-top:50px">
+<h1>My friends</h1>
+<h2>Add Friend</h2></div>
+<%= render 'form' %>
+

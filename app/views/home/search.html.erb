@@ -1,0 +1,21 @@
+<Html>
+<%= render :partial => "layouts/second" %>
+<div><%= image_tag("/images/u1.png")%><h1>Activcontacts</h1></div>
+<% if @user.present? %>
+<DIV id=u31 style="position:absolute; left:250px; top:300px; width:450px; height:22px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u31_rtf><span style=" font-family:'Arial'; color:#0000FF; font-size:19px;"><b> congrats !!! 1 match is found for your search</b></span></DIV></DIV>
+<DIV id=u34 style="position:absolute; left:250px; top:345px; width:480px; height:22px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u34_rtf><span style=" font-family:'Arial'; color:#000000; font-size:19px;">Do you want to get more details about your friend ?</span></DIV></DIV>
+<DIV id=u37 style="position:absolute; left:700px; top:400px; width:136px; height:19px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u37_rtf><div style="text-align:center"><span style=" color:#000000; font-size:16px;"><b><%=link_to 'Register', new_user_registration_path%> </b></span></div></DIV></DIV>
+<% else %>
+<DIV id=u29 style="position:absolute; left:250px; top:250px; width:410px; height:22px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u29_rtf><span style=" font-family:'Arial'; color:#000000; font-size:19px;">Oops!&nbsp; No matches found for your search</span></DIV></DIV>
+<DIV id=u34 style="position:absolute; left:300px; top:369px; width:480px; height:22px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u34_rtf><span style=" font-family:'Arial'; color:#000000; font-size:19px;">Do you want to get alert from ActivContacts ?</span></DIV></DIV>
+<DIV id=u37 style="position:absolute; left:600px; top:420px; width:156px; height:19px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u37_rtf><div style="text-align:center"><span style=" color:#000000; font-size:16px;"><b><%=link_to 'Yes,Iam desparate', new_user_registration_path%></b></span></div></DIV></DIV>
+<DIV id=u39 style="position:absolute; left:200px; top:420px; width:151px; height:19px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u39_rtf><div style="text-align:center"><span style=" color:#000000; font-size:16px;"><b><%=link_to'No !Go Home', home_index_path%></b></span></div></DIV></DIV>
+<% end %>
+</html>

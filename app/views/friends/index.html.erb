@@ -1,0 +1,31 @@
+<%= render :partial => "layouts/first" %>
+<div align=center style="margin-top:250px">
+<h1>My Friends</h1>    
+<h2>Manage Friends</h2>
+
+<table>
+  <tr>
+    <th>First name</th>
+    <th>Last name</th>
+    <th>Nick name</th>
+    <th>Phone number</th>
+    <th>options</th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @friends.each do |friend| %>
+  <tr>
+    <td><%= friend.first_name %></td>
+    <td><%= friend.last_name %></td>
+    <td><%= friend.nick_name %></td>
+    <td><%= friend.phone_number %></td>
+    <td><%= link_to 'Show', friend %></td>
+    <td><%= link_to 'Edit', edit_friend_path(friend) %></td>
+    <td><%= link_to 'Delete', friend, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+</br>
+ <%= link_to 'Add Friends', new_friend_path %>
+</div>
