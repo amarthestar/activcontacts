@@ -1,0 +1,24 @@
+<%= render :partial => "layouts/first" %>
+<%= image_tag("/images/u43.jpg")%>
+<div align=center style="margin-top:250px">
+<table border=5>
+  <tr >
+    <th>Name</th>
+    <th>mobile/Email</th>
+    <th>search at</th>
+    <th>Actions</th>
+  </tr>
+  <% i=0 %>
+  <%@my.each do |s|%>
+    <tr >
+       <td><%=@name[i]%><br></td>
+       <td><%=s.search_content%></td>
+       <td><%=time_ago_in_words(s.created_at)%> ago<br></td>
+       <td><%= link_to 'Delete', :id=>s.id, :action => "destroy" %>	
+    </tr>
+    <% i=i+1 %>
+  <% end %>
+</table>
+</div>
+
+  
