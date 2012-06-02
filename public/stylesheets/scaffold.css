@@ -1,4 +1,4 @@
-body { background-color: #fff; color: #333; }
+body { background-color:#CCFFFF; color: #333; }
 
 body, p, ol, ul, td {
   font-family: verdana, arial, helvetica, sans-serif;
@@ -36,7 +36,7 @@ div.field, div.actions {
   padding: 7px;
   padding-bottom: 0;
   margin-bottom: 20px;
-  background-color: #f0f0f0;
+  background-color: #FFFFCC;
 }
 
 #error_explanation h2 {
@@ -53,4 +53,8 @@ div.field, div.actions {
 #error_explanation ul li {
   font-size: 12px;
   list-style: square;
+}
+
+#layout {
+border:2px solid;
 }
