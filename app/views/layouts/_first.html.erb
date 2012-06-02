@@ -1,20 +1,15 @@
 
-<DIV id=u13 style="position:absolute; left:2px; top:100px; width:87px; height:18px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
-<DIV id=u13_rtf><div style="text-align:center"><span style=" font-family:'Arial'; color:#333333; font-size:15px;"><b><%=link_to 'Dashboard'  ,aflogin_index_path%></b></span></div></DIV></DIV>
-
-<DIV id=u11 style="position:absolute; left:100px; top:100px; width:79px; height:18px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
-<DIV id=u11_rtf><div style="text-align:center"><span style=" font-family:'Arial'; color:#333333; font-size:15px;"><b><%=link_to'Messages' ,inbox_path%></b></span></div></DIV></DIV>
-
-<DIV id=u9 style="position:absolute; left:200px; top:100px; width:136px; height:18px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
-<DIV id=u9_rtf><div style="text-align:center"><span style=" font-family:'Arial'; color:#333333; font-size:15px;"><b><%=link_to 'My ActiveContacts' ,myactivcontacts_index_path%></b></span></div></DIV></DIV>
-
-<DIV id=u15 style="position:absolute; left:350px; top:100px; width:84px; height:18px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
-<DIV id=u15_rtf><div style="text-align:center"><span style=" font-family:'Arial'; color:#333333; font-size:15px;"><b><%=link_to 'My Friends' ,friends_path%></b></span></div></DIV></DIV>
-
-
-<DIV id=u67 style="position:absolute; left:450px; top:100px; width:68px; height:18px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
-<DIV id=u67_rtf><div style="text-align:center"><span style=" font-family:'Arial'; color:#333333; font-size:15px;"><b><%= link_to'search',  search_index_path %></b></span></div></DIV></DIV>
-
+<DIV id=u13 style="position:absolute; left:2px; top:100px;  height:18px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u13_rtf><div style="text-align:center"><ul id="deluxeMenu">
+	<li><a href="#"><%=link_to 'Dashboard'  ,aflogin_index_path%></li>
+	<li><a href="#"><%=link_to'Messages' ,inbox_path%></li>
+	<li><a href="#"><%=link_to 'My ActiveContacts' ,myactivcontacts_index_path%></li>
+	<li><a href="#"><%=link_to 'My Searches' ,search_mysearches_path%></li>
+	<li><a href="#"><%=link_to 'My Friends' ,friends_path%></li>
+	<li><a href="#"><%= link_to'search',  search_index_path %></li>
+	</ul></div></DIV></DIV>
+	
+	
 <DIV id=u6 style="position:absolute; left:840px; top:100px; width:70px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
 <DIV id=u6_rtf><span style=" font-family:'Arial'; color:#0000FF; font-size:13px;"><u><%=link_to'My Profile' , edit_user_registration_path%></u></span></DIV></DIV>
 
@@ -22,4 +17,12 @@
 <DIV id=u7_rtf><span style=" font-family:'Arial'; color:#0000FF; font-size:13px;"><u>
 <%= link_to "Log out", destroy_user_session_path %></u></span></DIV></DIV>
 <DIV id=u7ann style="font-size:1px; position:absolute; left:971px; top:26px; width:1px; height:1px; overflow:visible"></DIV>
+
+
+
+
+	
+	
+
+
 

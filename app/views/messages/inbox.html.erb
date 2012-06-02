@@ -13,11 +13,12 @@
 <% if @message.present? %>
 <h2>Messages</h2>
 <h3>inbox</h3>
-<table border="1">
-<tr>
+<table border=5>
+    <tr>
 <th>From</th>
 <th>Subject</th>
 <th>Date</th>
+<th>Action</th>
 </tr>
 <% i=0 %>
 	<% @message.each do |q| %>
@@ -25,6 +26,7 @@
            <td><%=@rec[i]%><br></td>
 	   <td><%= link_to q.subject,"/msgin/#{q.id}" %><br></td>
            <td><%=q.created_at%><br></td>
+           <td><%= link_to 'Delete', :id=>q.id, :action => "destroy" %>
        </tr>
  <% i=i+1 %>
        <% end %>

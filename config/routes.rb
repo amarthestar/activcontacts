@@ -16,15 +16,18 @@ Activs::Application.routes.draw do
   match "/reply/:id"=> 'messages#reply'
   match '/messages/sendmessage'=> 'messages#sendmessage'
   match '/friendinfo/:id'=> 'messages#friendinfo'
+  match 'messages/destroy' => 'messages#destroy'
+   match 'messages/destroyout' => 'messages#destroyout'
 
   get "search/index"
   match 'aflogin/search' =>'search#index'
   match 'search/afsearch' =>'search#afsearch'
   match 'home/search' => 'home#search'
+  match 'search/mysearches' => 'search#mysearches'
+  match 'search/destroy' => 'search#destroy'
 
   get "home/index"
   get "home/blog"
-
   get "aflogin/index"
   match 'aflogin/index' => 'aflogin#index'
   resources :friends

@@ -5,9 +5,10 @@
 <h3> Phone Number </h3> 
         <% if @myactivcontact.present? %>
 		<table border="1">
-			<tr>
-				<th>Phone_Number</th>
-			</tr>
+			<th>
+				Phone_Number
+			</th>
+                        <th>Action</th>
 			<% @myactivcontact.each do |f| %>
 				<tr>
 					<td><%= f.phon_number%></td>

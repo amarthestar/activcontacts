@@ -11,21 +11,23 @@
 <h2>Messages</h2>
 <h3>Sent Messages</h3>
 <h3></h3>
-<table border="1">
-<tr>
+<table bgcolor border=5>
+  <tr >
 <th>To</th>
 <th>Subject</th>
 <th>Date sent</th>
+<th>Action</th>
 </tr>
 <% i=0 %>
 <% @mesg.each do |p| %>
 <tr>
  <td><%=@rec[i]%><br></td>
- <td><%= link_to p.subject,"/msgout/#{p.id}" %><br></td>
+ <td><%=link_to p.subject,"/msgout/#{p.id}" %><br></td>
  <td><%=p.created_at%><br></td>
+ <td><%= link_to 'Delete', :id=>p.id, :action => "destroyout" %>
 </tr>
      <% i=i+1 %>
-	<% end %>
+<% end %>
 </table>
 <% end %>
 </div>

@@ -1,12 +1,12 @@
 Activs::Application.routes.draw do
   get "myactivcontacts/new"
-  get "myactivcontacts/phonenew"
+  get "myactivcontactsphones/phonenew"
   match 'myactivcontacts/index' => 'myactivcontacts#index'
-  match '/myactivcontacts/phoneindex' => 'myactivcontacts#phoneindex'
+  match '/myactivcontactsphones/phoneindex' => 'myactivcontactsphones#phoneindex'
   match 'myactivcontacts/create' => 'myactivcontacts#create'
-  match 'myactivcontacts/phcreate' => 'myactivcontacts#phcreate' 
+  match 'myactivcontactsphones/phcreate' => 'myactivcontactsphones#phcreate' 
   match 'myactivcontacts/destroy' => 'myactivcontacts#destroy'
-  match 'myactivcontacts/destroyph' => 'myactivcontacts#destroyph'
+  match 'myactivcontactsphones/destroyph' => 'myactivcontactsphones#destroyph'
 
   match "/msgin/:id"=> 'messages#msgin'
   match "/msgout/:id"=> 'messages#msgout'
@@ -16,15 +16,18 @@ Activs::Application.routes.draw do
   match "/reply/:id"=> 'messages#reply'
   match '/messages/sendmessage'=> 'messages#sendmessage'
   match '/friendinfo/:id'=> 'messages#friendinfo'
+  match 'messages/destroy' => 'messages#destroy'
+   match 'messages/destroyout' => 'messages#destroyout'
 
   get "search/index"
   match 'aflogin/search' =>'search#index'
   match 'search/afsearch' =>'search#afsearch'
   match 'home/search' => 'home#search'
+  match 'search/mysearches' => 'search#mysearches'
+  match 'search/destroy' => 'search#destroy'
 
   get "home/index"
   get "home/blog"
-
   get "aflogin/index"
   match 'aflogin/index' => 'aflogin#index'
   resources :friends

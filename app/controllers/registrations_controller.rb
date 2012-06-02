@@ -16,6 +16,7 @@ class RegistrationsController < Devise::RegistrationsController
 
     if resource.save
       set_flash_message :notice, :signed_up
+      flash[:success]="check your mail for confirmation"
       sign_in_and_redirect(resource_name, resource)
     else
       clean_up_passwords(resource)

@@ -6,9 +6,8 @@
 <h3>Active Email </h3> 
         <% if @myactivcontact.present? %>
 		<table border="1">
-			<tr>
-				<th>email</th>
-			</tr>
+			<th>Email</th>
+			<th>Action</th>
 			<% @myactivcontact.each do |f| %>
 				<tr>
 					<td><%= f.e_mail %></td>

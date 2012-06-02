@@ -9,3 +9,19 @@
   <% end %>
 </div>
 
+<div align=left style="margin-top:250px">
+<table bgcolor=#CCFFFF border=5>
+ <h2>Recent Searches<h2>
+ <% if @mysearch.present? %>
+  <%@mysearch.each do |s|%>
+    <tr >
+       <td><%=s.search_content%><br></td>
+       <td><%=time_ago_in_words(s.created_at)%> ago<br></td>	
+    </tr>
+  <% end %>
+<% end %>
+</table>
+</div>
+
+
+

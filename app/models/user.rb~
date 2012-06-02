@@ -7,6 +7,7 @@ class User < ActiveRecord::Base
    has_many :myactivcontacts
    has_many :myactivcontactsphones
    has_many :messages
+   has_many :mysearches
   # Setup accessible (or protected) attributes for your model
   attr_accessible :email, :password, :password_confirmation, :first_name, :last_name, :phone_number
 end

@@ -1,5 +1,8 @@
 class HomeController < ApplicationController
   def index
+     @mysearch=Mysearch.find(:all, :order => "id desc", :limit => 5)
+     puts @mysearch.inspect
+
   end
   
   def blog
@@ -12,5 +15,5 @@ class HomeController < ApplicationController
   end
   end
 
-end
+  end
 

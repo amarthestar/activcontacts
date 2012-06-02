@@ -1,15 +1,13 @@
 <%= render :partial => "layouts/first" %>
-
 <div  style="position:absolute; left:180px; top:200px; width:420px; height:150px; overflow:visible">
-<%= image_tag("/images/u111.jpg")%><h2>My ActivContacts</h2>
+<%= image_tag("/images/u111.jpg")%><h2>My ActivContacts</h2></div>
 
-<div  style="position:absolute; left:75px; top:200px; width:420px; height:150px; overflow:visible">
+<div  style="position:absolute; left:180px; top:400px; width:420px; height:150px; overflow:visible">
 <h3>Active Email </h3> 
         <% if @myactivcontact.present? %>
 		<table border="1">
-			<tr>
-				<th>email</th>
-			</tr>
+			<th>Email</th>
+			<th>Action</th>
 			<% @myactivcontact.each do |f| %>
 				<tr>
 					<td><%= f.e_mail %></td>
@@ -22,7 +20,7 @@
 	<%= link_to 'Add another email',:controller=>"myactivcontacts", :action=>"new" %>
 </div>
 
-<div  style="position:absolute; left:500px; top:100px; width:420px; height:150px; overflow:visible">
-<%= image_tag("/images/u33.jpg")%>
-<div  style="position:absolute; left:50px; top:75px; width:420px; height:150px; overflow:visible">
+<div  style="position:absolute; left:500px; top:340px; width:420px; height:150px; overflow:visible">
+<%= image_tag("/images/u33.jpg")%></div>
+<div  style="position:absolute; left:500px; top:420px; width:420px; height:150px; overflow:visible">
 <h3><%=link_to'Numbers' ,myactivcontactsphones_phoneindex_path%></h3> </div>
