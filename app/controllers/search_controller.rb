@@ -45,7 +45,7 @@ class SearchController < ApplicationController
 end
 
         def searchmine
-          @mysearch=Mysearch.all(:conditions => ["search_content LIKE ? OR search_content LIKE ?", current_user.email, current_user.phone_number])
+          @mysearch=Mysearch.all(:conditions => ["search_content LIKE ? OR search_content LIKE ?", current_user.email, "#{current_user.phone_number}"])
          @searchmine=Array.new
          @mysearch.each do |s|
 		@searchmine<<s.user
