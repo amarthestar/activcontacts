@@ -37,14 +37,20 @@ class SearchController < ApplicationController
 				end
 			end
               end
-	
         end  
         def destroy
         @mysearch = Mysearch.find_by_id(params[:id])
         @mysearch.destroy
         redirect_to '/search/mysearches'
-      	end
-      
+end
+
+        def searchmine
+          @mysearch=Mysearch.all(:conditions => ["search_content LIKE ? OR search_content LIKE ?", current_user.email, current_user.phone_number])
+         @searchmine=Array.new
+         @mysearch.each do |s|
+		@searchmine<<s.user
+	end
+      end
 end
 
 

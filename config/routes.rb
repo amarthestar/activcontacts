@@ -25,6 +25,7 @@ Activs::Application.routes.draw do
   match 'home/search' => 'home#search'
   match 'search/mysearches' => 'search#mysearches'
   match 'search/destroy' => 'search#destroy'
+  match 'search/searchmine' => 'search#searchmine'
 
   get "home/index"
   get "home/blog"

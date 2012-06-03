@@ -1,0 +1,24 @@
+
+<%= render :partial => "layouts/first" %>
+<%= image_tag("/images/u43.jpg")%>
+<div align=center style="margin-top:150px"><h2>Congrats! Following Friends Search for you</h2></div>
+<div align=center style="margin-top:160px">
+<table border=5>
+  <tr >
+    <th>Name</th>
+    <th>Email</th>
+    <th>phone_Number</th>
+    <th>search at</th>activscts
+  </tr>
+  <% if @searchmine.present? %>
+  <%@searchmine.each do |s|%>
+    <tr >
+       <td><%=s.first_name%><br></td>
+       <td><%=s.email%></td>
+        <td><%=s.phone_number%></td>
+       <td><%=time_ago_in_words(s.created_at)%> ago<br></td>
+    </tr>
+  <% end %>
+  <% end %>
+</table>
+</div>
