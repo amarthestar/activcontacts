@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120602051511) do
+ActiveRecord::Schema.define(:version => 20120603113637) do
 
   create_table "activcontactsphones", :force => true do |t|
     t.integer  "phon_number", :limit => 8
@@ -23,7 +23,7 @@ ActiveRecord::Schema.define(:version => 20120602051511) do
     t.string   "first_name"
     t.string   "last_name"
     t.string   "nick_name"
-    t.integer  "phone_number"
+    t.integer  "phone_number", :limit => 8
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "user_id"
