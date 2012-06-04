@@ -1,4 +1,4 @@
-
+<script src="/javascripts/livevalidation.js"></script>
 <%= render :partial => "layouts/first" %>
 <div align=center style="margin-top:200px">
 <%= form_for :myactivcontact  ,:url=>{:action=>"create", :controller=>"myactivcontacts"} do |f|%><br/>
@@ -8,4 +8,11 @@
 <%= f.hidden_field :user_id, :value => current_user.id %>
 <% end %>
 </div>
+
+<script>
+var f1 = new LiveValidation('myactivcontact_e_mail');
+f1.add( Validate.Presence ); 
+f1.add( Validate.Email );
+</script>
+
  

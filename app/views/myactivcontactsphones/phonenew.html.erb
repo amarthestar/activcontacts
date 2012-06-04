@@ -1,3 +1,4 @@
+<script src="/javascripts/livevalidation.js"></script>
 <%= render :partial => "layouts/first" %>
 <div align=center <div align=center style="margin-top:200px">
 <%= form_for :activcontactsphone ,:url=>{:action=>"phcreate", :controller=>"myactivcontactsphones"} do |f|%><br/>
@@ -8,3 +9,14 @@
 <% end %>
 </div>
  
+<script>
+var f1 = new LiveValidation('activcontactsphone_phon_number');
+f1.add( Validate.Presence ); 
+f1.add( Validate.Numericality, { onlyInteger: true } );
+f1.add( Validate.Length, { minimum: 10, maximum: 15 } );
+</script>
+	
+
+
+
+

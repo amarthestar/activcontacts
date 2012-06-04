@@ -28,7 +28,7 @@ Activs::Application.routes.draw do
   match 'search/searchmine' => 'search#searchmine'
 
   get "home/index"
-  get "home/blog"
+  get "home/aboutus"
   get "aflogin/index"
   match 'aflogin/index' => 'aflogin#index'
   resources :friends

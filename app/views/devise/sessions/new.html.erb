@@ -1,3 +1,6 @@
+<script src="/javascripts/livevalidation.js"></script>
+<%= render :partial => "layouts/second" %>
+<div><%= image_tag("/images/u1.png")%><h1>Activcontacts</h1></div>
 <h2>Login to ActivContacts</h2>
 <%=flash[:success]%>
 <%= form_for(resource_name, resource, :url => session_path(resource_name)) do |f| %>
@@ -15,3 +18,5 @@
 <% end %>
 
 <%= render :partial => "devise/shared/links" %>
+
+

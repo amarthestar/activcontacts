@@ -11,6 +11,6 @@
 <DIV id=u5_rtf><span style=" font-family:'Arial'; color:#0000FF; font-size:17px;"><u><b><%=link_to 'Signup', new_user_registration_path%></b></u></span></DIV></DIV>
 <DIV id=u5ann style="font-size:1px; position:absolute; left:825px; top:45px; width:1px; height:1px; overflow:visible"></DIV>
 <DIV id=u7 style="position:absolute; left:840px; top:49px; width:74px; height:19px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
-<DIV id=u7_rtf><span style=" font-family:'Arial'; color:#0000FF; font-size:17px;"><u><b><%=link_to 'Blog', home_blog_path%></b></u></span></DIV></DIV>
+<DIV id=u7_rtf><span style=" font-family:'Arial'; color:#0000FF; font-size:17px;"><u><b><%=link_to 'Aboutus', home_aboutus_path%></b></u></span></DIV></DIV>
 <DIV id=u7ann style="font-size:1px; position:absolute; left:905px; top:45px; width:1px; height:1px; overflow:visible"></DIV>
 

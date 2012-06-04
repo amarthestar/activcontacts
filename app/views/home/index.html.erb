@@ -1,3 +1,4 @@
+<script src="/javascripts/livevalidation.js"></script>
 <%= render :partial => "layouts/second" %>
 <div><%= image_tag("/images/u1.png")%><h1>Activcontacts</h1></div>
 <DIV id=u33 style="position:absolute; left:200px; top:200px; width:617px; height:32px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
@@ -22,6 +23,12 @@
 <% end %>
 </table>
 </div>
+
+<script>
+var f1 = new LiveValidation('name');
+f1.add( Validate.Presence ); 
+</script>
+
 
 
 

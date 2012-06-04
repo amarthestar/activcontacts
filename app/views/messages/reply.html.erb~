@@ -1,3 +1,4 @@
+<script src="/javascripts/livevalidation.js"></script>
 <%= render :partial => "layouts/first" %>
 <%= image_tag("/images/u22.jpg")%>
 <div align=center style="margin-top:135px">
@@ -10,11 +11,13 @@
                        <td><%=f.hidden_field :receiver, :value=>@rec %></td>
                        <td><%= f.hidden_field :user_id, :value =>@user %></td>  
 	       </tr>
-               <tr>	
+               <tr><div style="position:absolute; left:320px; top:320px; width:37px; height:22px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" id="u59">
+<div id="u59_rtf"><span style=" font-family:'Arial'; color:#FF0000; font-size:19px;">*</span></div></div>	
 		       <td><%=f.label :subject,"Subject"%></td>                        
                        <td><%=f.text_field :subject %></td>
 		</tr>
-               <tr>
+               <tr><div style="position:absolute; left:320px; top:420px; width:37px; height:22px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" id="u59">
+<div id="u59_rtf"><span style=" font-family:'Arial'; color:#FF0000; font-size:19px;">*</span></div></div>
                        <td><%=f.label :message,"Message"%></td>                        
                        <td><%=f.text_area :message, :size => '50x10'%></td>
                </tr>
@@ -26,3 +29,10 @@
        <%end%>
  </table>
 </div>
+<script>
+var f1 = new LiveValidation('message_subject');
+f1.add( Validate.Presence ); 
+var f2 = new LiveValidation('message_message');
+f2.add( Validate.Presence ); 
+</script>
+

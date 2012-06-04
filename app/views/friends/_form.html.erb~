@@ -1,3 +1,4 @@
+<script src="/javascripts/livevalidation.js"></script>
 <%= render :partial => "layouts/first" %>
 
 <div align=center style="margin-top:50px">
@@ -5,7 +6,6 @@
   <% if @friend.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@friend.errors.count, "error") %> prohibited this friend from being saved:</h2>
-
       <ul>
       <% @friend.errors.full_messages.each do |msg| %>
         <li><%= msg %></li>
@@ -13,7 +13,6 @@
       </ul>
     </div>
   <% end %>
-
   <div class="field">
     <%= f.label :first_name %><br />
     <%= f.text_field :first_name %>
@@ -36,4 +35,25 @@
  <%= f.hidden_field :user_id, :value => current_user.id %>     
 <% end %>
 </div>
+
+ 
+<script>
+
+var f1 = new LiveValidation('friend_first_name');
+f1.add( Validate.Presence );
+
+var f2 = new LiveValidation('friend_last_name');
+f2.add( Validate.Presence ); 
+ 
+var f3 = new LiveValidation('friend_nick_name');
+f3.add( Validate.Presence ); 
+
+var f4 = new LiveValidation('friend_phone_number');
+f4.add( Validate.Presence ); 
+f4.add( Validate.Numericality, { onlyInteger: true } );
+f4.add( Validate.Length, { minimum: 10, maximum: 15 } );
+
+</script>
+	
+
 
