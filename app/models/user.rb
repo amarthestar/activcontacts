@@ -9,8 +9,9 @@ class User < ActiveRecord::Base
    has_many :messages
    has_many :mysearches
   # Setup accessible (or protected) attributes for your model
-  attr_accessible :email, :password, :password_confirmation, :first_name, :last_name, :phone_number
   validates :first_name, :format=>{:with =>/^[a-zA-Z\-' ]+$/, :message => "First name can only contain letters"}
   validates :last_name, :format=>{:with =>/^[a-zA-Z\-' ]+$/, :message => "Last name can only contain letters"}
+
+
  
   end

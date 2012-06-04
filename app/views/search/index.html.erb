@@ -1,8 +1,6 @@
-<script src="/javascripts/livevalidation.js"></script>
+
 <%= render :partial => "layouts/first" %>
 <div  style="position:absolute; left:325px; top:200px; width:420px; height:150px; overflow:visible"><%= image_tag("/images/u27.jpg")%><h1>Search Friends</h1></div>
-<div  style="position:absolute; left:650px; top:230px; width:420px; height:150px; font-size:20px; overflow:visible"><%=link_to 'Search mine' ,search_searchmine_path%></div>
-<script src="/javascripts/livevalidation.js"></script>
 <div  style="position:absolute; left:350px; top:325px; width:420px; height:150px; overflow:visible"><h2>Search for email / phone number you want to "Keep in Touch"</div>
 <div  style="position:absolute; left:350px; top:400px; width:420px; height:150px; overflow:visible">
 <%= form_tag(:controller => "search", :action => "afsearch", :params => params) do %>
@@ -11,11 +9,7 @@
 <% end %>
 </div>
 
-<script>
-var f1 = new LiveValidation('name');
-f1.add( Validate.Presence ); 
 
-</script>
 
 
 
