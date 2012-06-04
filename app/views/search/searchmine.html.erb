@@ -8,7 +8,6 @@
     <th>Name</th>
     <th>Email</th>
     <th>phone_Number</th>
-    <th>search at</th>
   </tr>
   <% if @searchmine.present? %>
   <%@searchmine.each do |s|%>
@@ -16,7 +15,6 @@
        <td><%=s.first_name%><br></td>
        <td><%=s.email%></td>
         <td><%=s.phone_number%></td>
-       <td><%=time_ago_in_words(s.created_at)%> ago<br></td>
     </tr>
   <% end %>
   <% end %>

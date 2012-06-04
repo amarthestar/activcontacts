@@ -49,6 +49,7 @@ end
          @searchmine=Array.new
          @mysearch.each do |s|
 		@searchmine<<s.user
+		puts s.created_at
 	end
       end
 end
