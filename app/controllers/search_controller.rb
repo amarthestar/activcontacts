@@ -40,12 +40,11 @@ class SearchController < ApplicationController
         end  
         def destroy
         @mysearch = Mysearch.find_by_id(params[:id])
-       if @mysearch.destroy
+        @mysearch.destroy if @mysearch.present?
         redirect_to '/search/mysearches'
-	else
-       redirect_to '/search/mysearches'
-
-end
+	#~ else
+       #~ redirect_to '/search/mysearches
+       #~ end
 end
 
         def searchmine
