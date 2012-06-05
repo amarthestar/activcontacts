@@ -42,9 +42,6 @@ class SearchController < ApplicationController
         @mysearch = Mysearch.find_by_id(params[:id])
         @mysearch.destroy if @mysearch.present?
         redirect_to '/search/mysearches'
-	#~ else
-       #~ redirect_to '/search/mysearches
-       #~ end
 end
 
         def searchmine
@@ -52,7 +49,7 @@ end
          @searchmine=Array.new
          @mysearch.each do |s|
 		@searchmine<<s.user
-		puts s.created_at
+
 	end
       end
 end

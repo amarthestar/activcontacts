@@ -73,7 +73,7 @@ class FriendsController < ApplicationController
   # DELETE /friends/1.xml
   def destroy
     @friend = Friend.find(params[:id])
-    @friend.destroy
+    @friend.destroy if @friend.present?
 
     respond_to do |format|
       format.html { redirect_to(friends_url) }
