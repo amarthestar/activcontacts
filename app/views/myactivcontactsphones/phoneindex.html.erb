@@ -5,14 +5,15 @@
 <h3> Phone Number </h3> 
         <% if @myactivcontact.present? %>
 		<table border="1">
-			<th>
-				Phone_Number
-			</th>
+			<th>Phone_Number</th>
                         <th>Action</th>
+                        <th>Status</th>
 			<% @myactivcontact.each do |f| %>
 				<tr>
 					<td><%= f.phon_number%></td>
-					<td><%= link_to 'Delete', :id=>f.id, :action => "destroyph" %>	
+					<td><%= link_to 'Delete', :id=>f.id, :action => "destroyph" %></td>
+                                         <td>
+					<%= f.status ? 'Primary_phone_number' : 'secondary_phone_number' %></td>
 				</tr>
          
 			<%end%>

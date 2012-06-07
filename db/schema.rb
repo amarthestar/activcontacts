@@ -10,13 +10,14 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120603113637) do
+ActiveRecord::Schema.define(:version => 20120605114746) do
 
   create_table "activcontactsphones", :force => true do |t|
     t.integer  "phon_number", :limit => 8
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "user_id"
+    t.boolean  "status"
   end
 
   create_table "friends", :force => true do |t|
@@ -44,6 +45,7 @@ ActiveRecord::Schema.define(:version => 20120603113637) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "user_id"
+    t.boolean  "status"
   end
 
   create_table "mysearches", :force => true do |t|

@@ -11,11 +11,23 @@ class SearchController < ApplicationController
 		@mysearch.save
 		if @user=User.find_by_email(params[:name]) 
 			@tem=@user.first_name
-		else @user=User.find_by_phone_number(params[:name])
+		elsif @u=Myactivcontact.find_by_e_mail(params[:name])
+			@userid=@u.user_id
+			@user=User.find_by_id(@userid)
+			@tem=@user.first_name
+			
+		elsif @user=User.find_by_phone_number(params[:name])
 			@tem=@user.first_name if @user.present?
+	        elsif	@u=Activcontactsphone.find_by_phon_number(params[:name])
+			@userid=@u.user_id
+			@user=User.find_by_id(@userid)
+			@tem=@user.first_name
+		else
+			@user=""
+			
 		end
 	end
-	
+	 
         def mysearches
 		@my=Mysearch.find_all_by_user_id(current_user.id)
 		@name=Array.new
@@ -23,15 +35,23 @@ class SearchController < ApplicationController
 			a=s.search_content.to_i
 			if a==0 
 				n=User.find_by_email(s.search_content)	
+				m=Myactivcontact.find_by_e_mail(s.search_content)
 				if n.present?	
 					@name<<n.first_name 
+				elsif m.present?
+					name=User.find_by_id(m.user_id).first_name
+					@name<<name
 				else
 					@name<<"Not in DB"
 				end
 			else
-				m=User.find_by_phone_number(a)
-				if m.present?	
-				        @name<<m.first_name 
+				p=User.find_by_phone_number(a)
+				q=Activcontactsphone.find_by_phon_number(s.search_content)
+				if p.present?	
+				        @name<<p.first_name 
+				elsif q.present?
+					name=User.find_by_id(q.user_id).first_name
+					@name<<name
 				else
 					@name<<"NOt in DB"
 				end
@@ -54,6 +74,6 @@ end
       end
 end
 
-
+ 
 
 

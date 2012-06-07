@@ -1,6 +1,7 @@
+<script src="/javascripts/livevalidation.js"></script>
 <%= render :partial => "layouts/first" %>
+<div align=center style="margin-top:90px">
 <%= image_tag("/images/u22.jpg")%>
-<div align=center style="margin-top:100px">
 <h1>Messages</h1>
 <script src="/javascripts/livevalidation.js"></script>
 <h1>Send message to [<%= @receiver.first_name %>]</h1>
@@ -14,7 +15,7 @@
 	       </tr>
              
                <tr>
-		       <td><%=f.label :Email,"Email"%></td><br>                       
+		       <td><%=f.label :Present_Email,"Present_Email"%></td><br>                       
                        <td><%=@receiver.email %></td><br>
 		</tr>
                <tr><div style="position:absolute; left:320px; top:380px; width:37px; height:22px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" id="u59">

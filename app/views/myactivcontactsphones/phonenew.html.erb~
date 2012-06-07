@@ -1,7 +1,11 @@
 <script src="/javascripts/livevalidation.js"></script>
 <%= render :partial => "layouts/first" %>
+<div  style="position:absolute; left:250px; top:200px; width:420px; height:150px; overflow:visible">
+<%= image_tag("/images/u33.jpg")%></div>
 <div align=center <div align=center style="margin-top:200px">
 <%= form_for :activcontactsphone ,:url=>{:action=>"phcreate", :controller=>"myactivcontactsphones"} do |f|%><br/>
+<%= f.label:Primary_phone_number %>
+<%= f.check_box :status %>
 <%= f.label:Add_phone_Number %>
 <%= f.text_field:phon_number%><br />
 <%= f.submit 'Add'%>

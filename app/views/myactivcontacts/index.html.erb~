@@ -8,11 +8,14 @@
 		<table border="1">
 			<th>Email</th>
 			<th>Action</th>
+  			<th>Status</th>
 			<% @myactivcontact.each do |f| %>
 				<tr>
 					<td><%= f.e_mail %></td>
 					<td><%= link_to 'Delete', :id=>f.id, :action => "destroy" %>
-					
+					<td>
+					<%= f.status ? 'Primary_email' : 'secondary_email' %></td>
+
 				</tr>
 			<%end%>
 		</table>
