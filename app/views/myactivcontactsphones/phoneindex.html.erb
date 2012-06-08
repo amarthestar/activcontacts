@@ -12,7 +12,7 @@
 				<tr>
 					<td><%= f.phon_number%></td>
 					<td><%= link_to 'Delete', :id=>f.id, :action => "destroyph" %></td>
-                                         <td><%= f.status ?  'Primary' : 'secondary' %></td>
+                                         <td><%= f.status?  'Primary' : 'secondary' %></td>
 				</tr>
          
 			<%end%>
