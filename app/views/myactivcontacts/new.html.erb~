@@ -1,7 +1,6 @@
 <script src="/javascripts/livevalidation.js"></script>
 <%= render :partial => "layouts/first" %>
-<div  style="position:absolute; left:180px; top:200px; width:420px; height:150px; overflow:visible">
-<%= image_tag("/images/u111.jpg")%><h2>My ActivContacts</h2></div>
+
 <div align=center style="margin-top:200px">
 <%= form_for :myactivcontact  ,:url=>{:action=>"create", :controller=>"myactivcontacts"} do |f|%><br/>
 <%= f.label:Primary_email %>
@@ -18,5 +17,9 @@ var f1 = new LiveValidation('myactivcontact_e_mail');
 f1.add( Validate.Presence ); 
 f1.add( Validate.Email );
 </script>
+
+
+
+ 
 
  
