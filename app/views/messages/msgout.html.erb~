@@ -9,8 +9,8 @@
 </div>
 <div align=center>
 <h2>View Sent Message</h2>
-<table border='1'>
-    <tr>
+<table bgcolor=#FFFFFF border='1'>
+    <tr bgcolor="#FFFFFF">
         <td width="325"><%= @msg.message %></td>
     </tr>
 </table>

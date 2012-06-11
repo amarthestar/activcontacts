@@ -4,12 +4,12 @@
 <div  style="position:absolute; left:250px; top:300px; width:420px; height:150px; overflow:visible">
 <h3> Phone Number </h3> 
         <% if @myactivcontact.present? %>
-		<table border="1">
+		<table bgcolor=#FFFFFF border="1">
 			<th>Phone_Number</th>
                         <th>Action</th>
                         <th>Status</th>
 			<% @myactivcontact.each do |f| %>
-				<tr>
+				<tr bgcolor="#FFFFFF">
 					<td><%= f.phon_number%></td>
 					<td><%= link_to 'Delete', :id=>f.id, :action => "destroyph" %></td>
                                          <td><%= f.status ? 'Primary' : 'secondary' %></td>

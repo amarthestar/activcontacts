@@ -3,7 +3,7 @@
 <DIV id=u10 style="position:absolute; left:650px; top:150px;  height:18px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" ><%= image_tag("/images/u43.jpg")%></DIV>
 <div align=center style="margin-top:250px"><h2>Congrats! Following Friends Search for you</h2></div>
 <div align=center style="margin-top:50px">
-<table border=5>
+<table bgcolor=#FFFFFF border=5>
   <tr >
     <th>Name</th>
     <th>Email</th>
@@ -11,7 +11,7 @@
   </tr>
   <% if @searchmine.present? %>
   <%@searchmine.each do |s|%>
-    <tr >
+    <tr bgcolor="#FFFFFF" >
        <td><%=s.first_name%><br></td>
        <td><%=s.email%></td>
         <td><%=s.phone_number%></td>

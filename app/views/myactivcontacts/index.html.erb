@@ -5,12 +5,12 @@
 <div  style="position:absolute; left:180px; top:400px; width:420px; height:150px; overflow:visible">
 <h3>Active Email </h3> 
         <% if @myactivcontact.present? %>
-		<table border="1">
+		<table bgcolor=#FFFFFF border="1">
 			<th>Email</th>
 			<th>Action</th>
   			<th>Status</th>
 			<% @myactivcontact.each do |f| %>
-				<tr>
+				<tr bgcolor="#FFFFFF">
 					<td><%= f.e_mail %></td>
 					<td><%= link_to 'Delete', :id=>f.id, :action => "destroy" %>
 					<td>
