@@ -1,0 +1,10 @@
+require "spec_helper"
+describe MyactivcontactsphonesController do
+	describe "routing" do	
+		it "routes to #phonenew" do
+			 get("/myactivcontactsphones/phonenew"}.should route_to("myactivcontactsphones#phonenew")
+		end
+	end
+end
+ 
+

@@ -32,7 +32,7 @@ class SearchController < ApplicationController
 		@my=Mysearch.find_all_by_user_id(current_user.id)
 		@name=Array.new
 		@my.each do |s|
-			a=s.search_content.to_i
+			a=s.search_content.to_i  #converting the search content into integer if search content is string value==0
 			if a==0 
 				n=User.find_by_email(s.search_content)	
 				m=Myactivcontact.find_by_e_mail(s.search_content)
