@@ -32,7 +32,7 @@ ActionMailer::Base.smtp_settings = {
   :authentication => :plain,
   :enable_starttls_auto => true,
   :user_name => "amarnaths1985@gmail.com",             
-  :password => 'salem1234'
+  :password => '########'
 }
 
 end
