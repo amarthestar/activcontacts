@@ -5,11 +5,11 @@ class SearchController < ApplicationController
 	end
   
 	def afsearch
-		@mysearch=Mysearch.new
+		@mysearch=Mysearch.new   #saving the searches in mysearches table
                 @mysearch.user_id=current_user.id
                 @mysearch.search_content=params[:name]
 		@mysearch.save
-		if @user=User.find_by_email(params[:name]) 
+		if @user=User.find_by_email(params[:name]) #searching the paramerter in users,myactivcontacts,activcontacts phone
 			@tem=@user.first_name
 		elsif @u=Myactivcontact.find_by_e_mail(params[:name])
 			@userid=@u.user_id
@@ -23,12 +23,12 @@ class SearchController < ApplicationController
 			@user=User.find_by_id(@userid)
 			@tem=@user.first_name
 		else
-			@user=""
+			@user="" 
 			
 		end
 	end
 	 
-        def mysearches
+        def mysearches  #getting mysearch details
 		@my=Mysearch.find_all_by_user_id(current_user.id)
 		@name=Array.new
 		@my.each do |s|
@@ -64,7 +64,7 @@ class SearchController < ApplicationController
         redirect_to '/search/mysearches'
 end
 
-        def searchmine
+        def searchmine #getting who are all search for my number
           @mysearch=Mysearch.all(:conditions => ["search_content LIKE ? OR search_content LIKE ?", current_user.email, "#{current_user.phone_number}"])
          @searchmine=Array.new
          @mysearch.each do |s|
