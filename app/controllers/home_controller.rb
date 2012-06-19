@@ -11,7 +11,6 @@ class HomeController < ApplicationController
       @tem=@user.first_name    #Keeping the first name of the record which is in @user in @tem varaible 
    elsif@u=Myactivcontact.find_by_e_mail(params[:name]) #Finding the record in the myactivcontact table with email which is taken as a parameter(params:name]) when it is searched in search others field and keeping in the instance variable @u when it is not matched in user table
 	@userid=@u.user_id   # Keeping the user_id of the record which is in @u in @userid varaible 
-	@userid=@u.user_id   #finding the record in the user table by id (which matches user_id) in myactivcontact table
 	@user=User.find_by_id(@userid)   #finding the record in the user table by id (which matches user_id) in myactivcontact table
 	@tem=@user.first_name    #Keeping the first name of the record which is in @user in @tem varaible 
 			
