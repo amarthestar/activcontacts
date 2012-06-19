@@ -1,7 +1,7 @@
 class SearchController < ApplicationController
   before_filter :authenticate_user!
 	def index
-		 #@user=User.find_by_email(params[:name])
+		
 	end
   
 	def afsearch
